@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "41D651304B612AE9A65BA8D7BE4EFD7E070927C0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C83CCC4A9F8F04F9BA254A8B4E166E10B932BA8A" : 0,
+    "41D651304B612AE9A65BA8D7BE4EFD7E070927C0" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "31A5A807-08AF-40B2-ADA5-F6C92C064172",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C83CCC4A9F8F04F9BA254A8B4E166E10B932BA8A" : "smarthome-baseapp\/",
+    "41D651304B612AE9A65BA8D7BE4EFD7E070927C0" : "common-ux\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CommonUX",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CommonUX.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:tutkinc\/ios_commonux.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "41D651304B612AE9A65BA8D7BE4EFD7E070927C0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:tutkinc\/ios_home2.0.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C83CCC4A9F8F04F9BA254A8B4E166E10B932BA8A"
+    }
+  ]
+}

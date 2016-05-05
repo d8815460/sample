@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		233FFE201CD6E27300285AE8 /* CommonUX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 233FFE1E1CD6E27000285AE8 /* CommonUX.framework */; };
+		2347ECFD1CD9D165006AACB5 /* CommonUX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2347ECFC1CD9D165006AACB5 /* CommonUX.framework */; };
+		2347ECFE1CD9D1AC006AACB5 /* CommonUX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2347ECFC1CD9D165006AACB5 /* CommonUX.framework */; };
+		2347ECFF1CD9D1AC006AACB5 /* CommonUX.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2347ECFC1CD9D165006AACB5 /* CommonUX.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2347ED021CD9F7F6006AACB5 /* GroupDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2347ED011CD9F7F6006AACB5 /* GroupDetailViewController.swift */; };
+		2347ED041CD9F806006AACB5 /* Group.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2347ED031CD9F806006AACB5 /* Group.storyboard */; };
+		235FFEF41CC4971500F96478 /* KAContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235FFEF31CC4971500F96478 /* KAContainerViewController.swift */; };
+		235FFEF61CC4977D00F96478 /* KANavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235FFEF51CC4977D00F96478 /* KANavigationController.swift */; };
+		235FFF0E1CC4DE1200F96478 /* FlexibleTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235FFF0C1CC4DE1200F96478 /* FlexibleTableView.swift */; };
+		235FFF0F1CC4DE1200F96478 /* FlexibleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235FFF0D1CC4DE1200F96478 /* FlexibleTableViewCell.swift */; };
+		235FFF111CC4DE8400F96478 /* FlexibleMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235FFF101CC4DE8400F96478 /* FlexibleMenuViewController.swift */; };
+		235FFF151CC647ED00F96478 /* TGDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235FFF141CC647ED00F96478 /* TGDashboardViewController.swift */; };
+		235FFF1B1CC67D8F00F96478 /* TGConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235FFF1A1CC67D8F00F96478 /* TGConstants.swift */; };
+		235FFF1D1CC681C100F96478 /* TGCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235FFF1C1CC681C100F96478 /* TGCache.swift */; };
+		235FFF1F1CC6882D00F96478 /* TGUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235FFF1E1CC6882D00F96478 /* TGUtility.swift */; };
+		236CE1901CBB8D6200E3EB98 /* MyWellcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236CE18F1CBB8D6200E3EB98 /* MyWellcomeViewController.swift */; };
+		236CE1921CBB8D9900E3EB98 /* MyWellcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 236CE1911CBB8D9900E3EB98 /* MyWellcomeViewController.xib */; };
+		23A80F631CC8840800B11323 /* DragDropCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A80F5E1CC8840800B11323 /* DragDropCollectionView.swift */; };
+		23A80F641CC8840800B11323 /* SimpleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A80F5F1CC8840800B11323 /* SimpleCell.swift */; };
+		23A80F651CC8840800B11323 /* SimpleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23A80F601CC8840800B11323 /* SimpleCell.xib */; };
+		23A80F661CC8840800B11323 /* SimpleHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A80F611CC8840800B11323 /* SimpleHeaderView.swift */; };
+		23A80F671CC8840800B11323 /* SimpleHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23A80F621CC8840800B11323 /* SimpleHeaderView.xib */; };
+		23DCE44A1CC9C49700ADD43C /* PopMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DCE4491CC9C49700ADD43C /* PopMenuViewController.swift */; };
+		23DCE44E1CC9CBD400ADD43C /* PopMenuTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DCE44D1CC9CBD400ADD43C /* PopMenuTableView.swift */; };
+		23DCE4501CC9CFD600ADD43C /* PopMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DCE44F1CC9CFD600ADD43C /* PopMenuTableViewCell.swift */; };
+		23F9D3981CDB2A6200BF1F45 /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F9D3971CDB2A6200BF1F45 /* GroupCell.swift */; };
+		23F9D39A1CDB2A8800BF1F45 /* AceesoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F9D3991CDB2A8800BF1F45 /* AceesoryCell.swift */; };
+		582D31EF1CA96D6800F16ADB /* MyLANSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582D31ED1CA96D6800F16ADB /* MyLANSearchViewController.swift */; };
+		582D31F41CA96EFC00F16ADB /* MyLANSearchViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 582D31F31CA96EFC00F16ADB /* MyLANSearchViewController.storyboard */; };
+		587F62141CA12E660016A846 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587F62131CA12E660016A846 /* AppDelegate.swift */; };
+		587F62161CA12E660016A846 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587F62151CA12E660016A846 /* ViewController.swift */; };
+		587F62191CA12E660016A846 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587F62171CA12E660016A846 /* Main.storyboard */; };
+		587F621E1CA12E660016A846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 587F621D1CA12E660016A846 /* Assets.xcassets */; };
+		587F62211CA12E660016A846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587F621F1CA12E660016A846 /* LaunchScreen.storyboard */; };
+		587F62671CA141C20016A846 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 587F62661CA141C20016A846 /* Default-568h@2x.png */; };
+		58888F991CB1258000DF8636 /* MyLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58888F971CB1258000DF8636 /* MyLoginViewController.swift */; };
+		58888F9A1CB1258000DF8636 /* MyLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58888F981CB1258000DF8636 /* MyLoginViewController.xib */; };
+		58888FA01CB12B8E00DF8636 /* FacebookAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58888F9F1CB12B8E00DF8636 /* FacebookAuthenticator.swift */; };
+		591CACDB8D7169A60A624B62 /* Pods_SmartHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE94B384BD517CF49759BA8 /* Pods_SmartHome.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		23B6CDC31CBFDC10006893F3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2347ECFF1CD9D1AC006AACB5 /* CommonUX.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1475195EED587D924C49EEBD /* Pods-SmartHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartHome/Pods-SmartHome.debug.xcconfig"; sourceTree = "<group>"; };
+		1EE94B384BD517CF49759BA8 /* Pods_SmartHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		233FFE1E1CD6E27000285AE8 /* CommonUX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CommonUX.framework; path = "/Users/Ayi/Documents/Vtech2/SmartHome/lib/Debug-iphonesimulator/CommonUX.framework"; sourceTree = "<absolute>"; };
+		2347ECFC1CD9D165006AACB5 /* CommonUX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CommonUX.framework; path = "SmartHome/lib/Debug-iphoneos/CommonUX.framework"; sourceTree = "<group>"; };
+		2347ED011CD9F7F6006AACB5 /* GroupDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupDetailViewController.swift; sourceTree = "<group>"; };
+		2347ED031CD9F806006AACB5 /* Group.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Group.storyboard; sourceTree = "<group>"; };
+		235FFEF31CC4971500F96478 /* KAContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KAContainerViewController.swift; sourceTree = "<group>"; };
+		235FFEF51CC4977D00F96478 /* KANavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KANavigationController.swift; sourceTree = "<group>"; };
+		235FFF0C1CC4DE1200F96478 /* FlexibleTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexibleTableView.swift; sourceTree = "<group>"; };
+		235FFF0D1CC4DE1200F96478 /* FlexibleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexibleTableViewCell.swift; sourceTree = "<group>"; };
+		235FFF101CC4DE8400F96478 /* FlexibleMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexibleMenuViewController.swift; sourceTree = "<group>"; };
+		235FFF141CC647ED00F96478 /* TGDashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGDashboardViewController.swift; sourceTree = "<group>"; };
+		235FFF1A1CC67D8F00F96478 /* TGConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGConstants.swift; sourceTree = "<group>"; };
+		235FFF1C1CC681C100F96478 /* TGCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGCache.swift; sourceTree = "<group>"; };
+		235FFF1E1CC6882D00F96478 /* TGUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGUtility.swift; sourceTree = "<group>"; };
+		236CE18F1CBB8D6200E3EB98 /* MyWellcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyWellcomeViewController.swift; sourceTree = "<group>"; };
+		236CE1911CBB8D9900E3EB98 /* MyWellcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyWellcomeViewController.xib; sourceTree = "<group>"; };
+		23A80F5E1CC8840800B11323 /* DragDropCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragDropCollectionView.swift; sourceTree = "<group>"; };
+		23A80F5F1CC8840800B11323 /* SimpleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleCell.swift; sourceTree = "<group>"; };
+		23A80F601CC8840800B11323 /* SimpleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleCell.xib; sourceTree = "<group>"; };
+		23A80F611CC8840800B11323 /* SimpleHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleHeaderView.swift; sourceTree = "<group>"; };
+		23A80F621CC8840800B11323 /* SimpleHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleHeaderView.xib; sourceTree = "<group>"; };
+		23DCE4491CC9C49700ADD43C /* PopMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopMenuViewController.swift; sourceTree = "<group>"; };
+		23DCE44D1CC9CBD400ADD43C /* PopMenuTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopMenuTableView.swift; sourceTree = "<group>"; };
+		23DCE44F1CC9CFD600ADD43C /* PopMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopMenuTableViewCell.swift; sourceTree = "<group>"; };
+		23F9D3971CDB2A6200BF1F45 /* GroupCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
+		23F9D3991CDB2A8800BF1F45 /* AceesoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AceesoryCell.swift; sourceTree = "<group>"; };
+		2C51BAAE5798ABF7AE7EAE9A /* Pods-SmartHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartHome/Pods-SmartHome.release.xcconfig"; sourceTree = "<group>"; };
+		582D31ED1CA96D6800F16ADB /* MyLANSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLANSearchViewController.swift; sourceTree = "<group>"; };
+		582D31F31CA96EFC00F16ADB /* MyLANSearchViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyLANSearchViewController.storyboard; sourceTree = "<group>"; };
+		587F62101CA12E660016A846 /* SmartHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		587F62131CA12E660016A846 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		587F62151CA12E660016A846 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		587F62181CA12E660016A846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		587F621D1CA12E660016A846 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		587F62201CA12E660016A846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		587F62221CA12E660016A846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		587F62661CA141C20016A846 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		58888F971CB1258000DF8636 /* MyLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLoginViewController.swift; sourceTree = "<group>"; };
+		58888F981CB1258000DF8636 /* MyLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyLoginViewController.xib; sourceTree = "<group>"; };
+		58888F9F1CB12B8E00DF8636 /* FacebookAuthenticator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookAuthenticator.swift; sourceTree = "<group>"; };
+		58888FA11CB12C1300DF8636 /* SmartHome-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartHome-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		587F620D1CA12E660016A846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2347ECFE1CD9D1AC006AACB5 /* CommonUX.framework in Frameworks */,
+				233FFE201CD6E27300285AE8 /* CommonUX.framework in Frameworks */,
+				2347ECFD1CD9D165006AACB5 /* CommonUX.framework in Frameworks */,
+				591CACDB8D7169A60A624B62 /* Pods_SmartHome.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		233FFE221CD6ED0900285AE8 /* AddDevice */ = {
+			isa = PBXGroup;
+			children = (
+				233FFE271CD6ED6E00285AE8 /* Sapporo */,
+			);
+			name = AddDevice;
+			sourceTree = "<group>";
+		};
+		233FFE271CD6ED6E00285AE8 /* Sapporo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sapporo;
+			sourceTree = "<group>";
+		};
+		2347ED001CD9F7DC006AACB5 /* Group Deatil */ = {
+			isa = PBXGroup;
+			children = (
+				23F9D3991CDB2A8800BF1F45 /* AceesoryCell.swift */,
+				23F9D3971CDB2A6200BF1F45 /* GroupCell.swift */,
+				2347ED011CD9F7F6006AACB5 /* GroupDetailViewController.swift */,
+				2347ED031CD9F806006AACB5 /* Group.storyboard */,
+			);
+			name = "Group Deatil";
+			sourceTree = "<group>";
+		};
+		235FFEF21CC496C900F96478 /* Menu - KAContainerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				235FFEF31CC4971500F96478 /* KAContainerViewController.swift */,
+				235FFEF51CC4977D00F96478 /* KANavigationController.swift */,
+				235FFF101CC4DE8400F96478 /* FlexibleMenuViewController.swift */,
+				235FFF0C1CC4DE1200F96478 /* FlexibleTableView.swift */,
+				235FFF0D1CC4DE1200F96478 /* FlexibleTableViewCell.swift */,
+			);
+			name = "Menu - KAContainerViewController";
+			sourceTree = "<group>";
+		};
+		235FFEFB1CC4AFAD00F96478 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				23DCE4481CC9C44C00ADD43C /* PopMenu */,
+				235FFF141CC647ED00F96478 /* TGDashboardViewController.swift */,
+				23A80F5E1CC8840800B11323 /* DragDropCollectionView.swift */,
+				23A80F5F1CC8840800B11323 /* SimpleCell.swift */,
+				23A80F601CC8840800B11323 /* SimpleCell.xib */,
+				23A80F611CC8840800B11323 /* SimpleHeaderView.swift */,
+				23A80F621CC8840800B11323 /* SimpleHeaderView.xib */,
+			);
+			name = Dashboard;
+			sourceTree = "<group>";
+		};
+		235FFF161CC65FE700F96478 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Account;
+			sourceTree = "<group>";
+		};
+		23A80F301CC759AA00B11323 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = storyboard;
+			sourceTree = "<group>";
+		};
+		23DCE4481CC9C44C00ADD43C /* PopMenu */ = {
+			isa = PBXGroup;
+			children = (
+				23DCE4491CC9C49700ADD43C /* PopMenuViewController.swift */,
+				23DCE44D1CC9CBD400ADD43C /* PopMenuTableView.swift */,
+				23DCE44F1CC9CFD600ADD43C /* PopMenuTableViewCell.swift */,
+			);
+			name = PopMenu;
+			sourceTree = "<group>";
+		};
+		587F62071CA12E660016A846 = {
+			isa = PBXGroup;
+			children = (
+				587F62661CA141C20016A846 /* Default-568h@2x.png */,
+				587F62121CA12E660016A846 /* SmartHome */,
+				58888F9C1CB12AF400DF8636 /* Frameworks */,
+				587F62111CA12E660016A846 /* Products */,
+				7D6408F5B9136653876A13E0 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		587F62111CA12E660016A846 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				587F62101CA12E660016A846 /* SmartHome.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		587F62121CA12E660016A846 /* SmartHome */ = {
+			isa = PBXGroup;
+			children = (
+				23A80F301CC759AA00B11323 /* storyboard */,
+				235FFEF21CC496C900F96478 /* Menu - KAContainerViewController */,
+				235FFEFB1CC4AFAD00F96478 /* Dashboard */,
+				2347ED001CD9F7DC006AACB5 /* Group Deatil */,
+				233FFE221CD6ED0900285AE8 /* AddDevice */,
+				235FFF161CC65FE700F96478 /* Account */,
+				587F62131CA12E660016A846 /* AppDelegate.swift */,
+				235FFF1A1CC67D8F00F96478 /* TGConstants.swift */,
+				235FFF1E1CC6882D00F96478 /* TGUtility.swift */,
+				235FFF1C1CC681C100F96478 /* TGCache.swift */,
+				587F62151CA12E660016A846 /* ViewController.swift */,
+				587F62171CA12E660016A846 /* Main.storyboard */,
+				587F621D1CA12E660016A846 /* Assets.xcassets */,
+				587F621F1CA12E660016A846 /* LaunchScreen.storyboard */,
+				587F62221CA12E660016A846 /* Info.plist */,
+				582D31ED1CA96D6800F16ADB /* MyLANSearchViewController.swift */,
+				582D31F31CA96EFC00F16ADB /* MyLANSearchViewController.storyboard */,
+				236CE18F1CBB8D6200E3EB98 /* MyWellcomeViewController.swift */,
+				236CE1911CBB8D9900E3EB98 /* MyWellcomeViewController.xib */,
+				58888F971CB1258000DF8636 /* MyLoginViewController.swift */,
+				58888F981CB1258000DF8636 /* MyLoginViewController.xib */,
+				58888F9F1CB12B8E00DF8636 /* FacebookAuthenticator.swift */,
+				58888FA11CB12C1300DF8636 /* SmartHome-Bridging-Header.h */,
+			);
+			path = SmartHome;
+			sourceTree = "<group>";
+		};
+		58888F9C1CB12AF400DF8636 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2347ECFC1CD9D165006AACB5 /* CommonUX.framework */,
+				1EE94B384BD517CF49759BA8 /* Pods_SmartHome.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D6408F5B9136653876A13E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1475195EED587D924C49EEBD /* Pods-SmartHome.debug.xcconfig */,
+				2C51BAAE5798ABF7AE7EAE9A /* Pods-SmartHome.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		587F620F1CA12E660016A846 /* SmartHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 587F62251CA12E660016A846 /* Build configuration list for PBXNativeTarget "SmartHome" */;
+			buildPhases = (
+				614F5D5893FF62341356DACE /* 📦 Check Pods Manifest.lock */,
+				587F620C1CA12E660016A846 /* Sources */,
+				587F620D1CA12E660016A846 /* Frameworks */,
+				587F620E1CA12E660016A846 /* Resources */,
+				23B6CDC31CBFDC10006893F3 /* Embed Frameworks */,
+				7496ED5DF64D07B32E6725BF /* 📦 Embed Pods Frameworks */,
+				ADB547115F084945356D7FFB /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartHome;
+			productName = "vetch-smarthome";
+			productReference = 587F62101CA12E660016A846 /* SmartHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		587F62081CA12E660016A846 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TUTK;
+				TargetAttributes = {
+					587F620F1CA12E660016A846 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 8LJ7V3WEL3;
+					};
+				};
+			};
+			buildConfigurationList = 587F620B1CA12E660016A846 /* Build configuration list for PBXProject "SmartHome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 587F62071CA12E660016A846;
+			productRefGroup = 587F62111CA12E660016A846 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				587F620F1CA12E660016A846 /* SmartHome */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		587F620E1CA12E660016A846 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582D31F41CA96EFC00F16ADB /* MyLANSearchViewController.storyboard in Resources */,
+				23A80F671CC8840800B11323 /* SimpleHeaderView.xib in Resources */,
+				23A80F651CC8840800B11323 /* SimpleCell.xib in Resources */,
+				236CE1921CBB8D9900E3EB98 /* MyWellcomeViewController.xib in Resources */,
+				2347ED041CD9F806006AACB5 /* Group.storyboard in Resources */,
+				587F62211CA12E660016A846 /* LaunchScreen.storyboard in Resources */,
+				587F62671CA141C20016A846 /* Default-568h@2x.png in Resources */,
+				587F621E1CA12E660016A846 /* Assets.xcassets in Resources */,
+				58888F9A1CB1258000DF8636 /* MyLoginViewController.xib in Resources */,
+				587F62191CA12E660016A846 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		614F5D5893FF62341356DACE /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7496ED5DF64D07B32E6725BF /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartHome/Pods-SmartHome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADB547115F084945356D7FFB /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartHome/Pods-SmartHome-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		587F620C1CA12E660016A846 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235FFF111CC4DE8400F96478 /* FlexibleMenuViewController.swift in Sources */,
+				23A80F631CC8840800B11323 /* DragDropCollectionView.swift in Sources */,
+				58888F991CB1258000DF8636 /* MyLoginViewController.swift in Sources */,
+				235FFEF41CC4971500F96478 /* KAContainerViewController.swift in Sources */,
+				235FFF0F1CC4DE1200F96478 /* FlexibleTableViewCell.swift in Sources */,
+				23A80F661CC8840800B11323 /* SimpleHeaderView.swift in Sources */,
+				23DCE44A1CC9C49700ADD43C /* PopMenuViewController.swift in Sources */,
+				582D31EF1CA96D6800F16ADB /* MyLANSearchViewController.swift in Sources */,
+				23F9D3981CDB2A6200BF1F45 /* GroupCell.swift in Sources */,
+				235FFF1D1CC681C100F96478 /* TGCache.swift in Sources */,
+				235FFF0E1CC4DE1200F96478 /* FlexibleTableView.swift in Sources */,
+				236CE1901CBB8D6200E3EB98 /* MyWellcomeViewController.swift in Sources */,
+				235FFF1B1CC67D8F00F96478 /* TGConstants.swift in Sources */,
+				23DCE44E1CC9CBD400ADD43C /* PopMenuTableView.swift in Sources */,
+				58888FA01CB12B8E00DF8636 /* FacebookAuthenticator.swift in Sources */,
+				587F62161CA12E660016A846 /* ViewController.swift in Sources */,
+				23F9D39A1CDB2A8800BF1F45 /* AceesoryCell.swift in Sources */,
+				235FFF1F1CC6882D00F96478 /* TGUtility.swift in Sources */,
+				587F62141CA12E660016A846 /* AppDelegate.swift in Sources */,
+				23A80F641CC8840800B11323 /* SimpleCell.swift in Sources */,
+				23DCE4501CC9CFD600ADD43C /* PopMenuTableViewCell.swift in Sources */,
+				2347ED021CD9F7F6006AACB5 /* GroupDetailViewController.swift in Sources */,
+				235FFEF61CC4977D00F96478 /* KANavigationController.swift in Sources */,
+				235FFF151CC647ED00F96478 /* TGDashboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		587F62171CA12E660016A846 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				587F62181CA12E660016A846 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		587F621F1CA12E660016A846 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				587F62201CA12E660016A846 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		587F62231CA12E660016A846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		587F62241CA12E660016A846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		587F62261CA12E660016A846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1475195EED587D924C49EEBD /* Pods-SmartHome.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SmartHome/lib/Debug-iphoneos",
+					"$(PROJECT_DIR)/SmartHome/lib/Debug-iphonesimulator",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SmartHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tutk.vtechsmarthome;
+				PRODUCT_NAME = SmartHome;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmartHome/SmartHome-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/SmartHome/lib/Debug-iphoneos $(PROJECT_DIR)/SmartHome/lib/Debug-iphonesimulator";
+			};
+			name = Debug;
+		};
+		587F62271CA12E660016A846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C51BAAE5798ABF7AE7EAE9A /* Pods-SmartHome.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SmartHome/lib/Release-iphonesimulator",
+					"$(PROJECT_DIR)/SmartHome/lib/Release-iphoneos",
+					"$(PROJECT_DIR)/SmartHome/lib/Debug-iphoneos",
+					"$(PROJECT_DIR)/SmartHome/lib/Debug-iphonesimulator",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SmartHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SmartHome/lib/Release-iphoneos",
+					"$(PROJECT_DIR)/SmartHome/lib/Release-iphonesimulator",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tutk.vtechsmarthome;
+				PRODUCT_NAME = SmartHome;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmartHome/SmartHome-Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/SmartHome/lib/Release-iphonesimulator $(PROJECT_DIR)/SmartHome/lib/Release-iphoneos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		587F620B1CA12E660016A846 /* Build configuration list for PBXProject "SmartHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587F62231CA12E660016A846 /* Debug */,
+				587F62241CA12E660016A846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		587F62251CA12E660016A846 /* Build configuration list for PBXNativeTarget "SmartHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587F62261CA12E660016A846 /* Debug */,
+				587F62271CA12E660016A846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 587F62081CA12E660016A846 /* Project object */;
+}

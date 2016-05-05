@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--App Info View Controller-->
+        <scene sceneID="vir-KG-Q6V">
+            <objects>
+                <viewController restorationIdentifier="about" storyboardIdentifier="about" id="utp-Rt-EQx" customClass="AppInfoViewController" customModule="CommonUX" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="m8D-Lm-c3J"/>
+                        <viewControllerLayoutGuide type="bottom" id="5bT-mW-OJC"/>
+                    </layoutGuides>
+                    <view key="view" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="rf3-js-KQ7">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="account_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="Cjb-Rt-hWs">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IOTCAPIs 1.0.0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y7Q-zl-bB6">
+                                <rect key="frame" x="245" y="327" width="112" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AVAPIs 1.0.0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sK2-h4-Pus">
+                                <rect key="frame" x="253" y="353" width="97" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Firmeware version xxxxxxxxx" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tgc-Gv-cgo">
+                                <rect key="frame" x="203" y="379" width="198" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version 1.0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Qh-4j-MJg">
+                                <rect key="frame" x="242" y="287" width="117" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2016. All rights reserved." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UdM-67-e4b">
+                                <rect key="frame" x="156" y="405" width="289" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="hGr-hF-W28">
+                                <rect key="frame" x="250" y="120" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="nyL-74-JC4"/>
+                                    <constraint firstAttribute="height" constant="100" id="yu7-yT-rSj"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="y7Q-zl-bB6" firstAttribute="top" secondItem="5Qh-4j-MJg" secondAttribute="bottom" constant="16" id="0Af-jj-HMe"/>
+                            <constraint firstItem="hGr-hF-W28" firstAttribute="top" secondItem="m8D-Lm-c3J" secondAttribute="bottom" constant="100" id="5M9-Sq-hH1"/>
+                            <constraint firstItem="5Qh-4j-MJg" firstAttribute="top" secondItem="hGr-hF-W28" secondAttribute="bottom" constant="67" id="8e6-SB-Pwh"/>
+                            <constraint firstItem="hGr-hF-W28" firstAttribute="centerX" secondItem="rf3-js-KQ7" secondAttribute="centerX" id="92v-jp-bUY"/>
+                            <constraint firstItem="5Qh-4j-MJg" firstAttribute="centerX" secondItem="Cjb-Rt-hWs" secondAttribute="centerX" id="GiV-8J-BC3"/>
+                            <constraint firstItem="UdM-67-e4b" firstAttribute="centerX" secondItem="rf3-js-KQ7" secondAttribute="centerX" id="Gj6-QR-qa6"/>
+                            <constraint firstItem="Cjb-Rt-hWs" firstAttribute="leading" secondItem="rf3-js-KQ7" secondAttribute="leading" id="Itm-6X-a7k"/>
+                            <constraint firstItem="sK2-h4-Pus" firstAttribute="top" secondItem="y7Q-zl-bB6" secondAttribute="bottom" constant="8" id="OL2-4e-eQE"/>
+                            <constraint firstItem="Cjb-Rt-hWs" firstAttribute="bottom" secondItem="5bT-mW-OJC" secondAttribute="top" id="Ptk-h9-BMP"/>
+                            <constraint firstItem="sK2-h4-Pus" firstAttribute="centerX" secondItem="y7Q-zl-bB6" secondAttribute="centerX" id="ZhI-aR-m0I"/>
+                            <constraint firstItem="tgc-Gv-cgo" firstAttribute="top" secondItem="sK2-h4-Pus" secondAttribute="bottom" constant="8" id="lZa-JF-Woe"/>
+                            <constraint firstItem="tgc-Gv-cgo" firstAttribute="centerX" secondItem="sK2-h4-Pus" secondAttribute="centerX" id="nf2-cQ-gmf"/>
+                            <constraint firstItem="Cjb-Rt-hWs" firstAttribute="centerX" secondItem="hGr-hF-W28" secondAttribute="centerX" id="nsQ-15-uv8"/>
+                            <constraint firstItem="y7Q-zl-bB6" firstAttribute="centerX" secondItem="5Qh-4j-MJg" secondAttribute="centerX" id="pny-aQ-lwr"/>
+                            <constraint firstItem="Cjb-Rt-hWs" firstAttribute="top" secondItem="rf3-js-KQ7" secondAttribute="top" id="rz8-od-e7u"/>
+                            <constraint firstItem="UdM-67-e4b" firstAttribute="top" secondItem="tgc-Gv-cgo" secondAttribute="bottom" constant="8" id="soM-JV-HUT"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="AVAPIVersionLabel" destination="sK2-h4-Pus" id="77a-oz-dgh"/>
+                        <outlet property="AppVersionLabel" destination="5Qh-4j-MJg" id="rh5-DK-xJH"/>
+                        <outlet property="IOTCVersionLabel" destination="y7Q-zl-bB6" id="XIJ-Av-O2x"/>
+                        <outlet property="copyrightVersionLabel" destination="UdM-67-e4b" id="MsD-33-s3f"/>
+                        <outlet property="firmewareVersionLabel" destination="tgc-Gv-cgo" id="Vyo-bq-Wxk"/>
+                        <outlet property="logoImageView" destination="hGr-hF-W28" id="xLS-5h-Fa7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mam-Xn-XSD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="381" y="399"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="account_bg.png" width="320" height="568"/>
+        <image name="logo.png" width="102" height="102"/>
+    </resources>
+</document>
